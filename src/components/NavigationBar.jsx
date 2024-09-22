@@ -48,7 +48,7 @@ function NavigationBar({ cartItemCount }) {
         <AppBar
             position="sticky"
             sx={{
-                backgroundColor: '#3f51b5',
+                backgroundColor: 'black',
                 marginBottom: '2rem',
                 '& .logo-link': {
                     textDecoration: 'none',
@@ -116,7 +116,7 @@ function NavigationBar({ cartItemCount }) {
                 ) : (
                     <>
                         <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-                            <Link to="/" className="logo-link">FUSION ELECTRONICS</Link>
+                            <Link to="/" className="logo-link">National Electronics</Link>
                         </Typography>
                         <form className="search-bar" onSubmit={handleSearchSubmit} ref={searchBarRef}>
                             <SearchIcon sx={{ color: 'white' }} />

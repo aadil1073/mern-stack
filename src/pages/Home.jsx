@@ -33,17 +33,17 @@ const StyledCarousel = styled(Carousel)({
 function Home({ products, addToCart, error, loading }) {
     const bannerImages = [
         {
-            url: 'https://thumbs.dreamstime.com/b/electronics-sale-banner-devices-online-shopping-delivery-basket-273419752.jpg',
+            url: 'https://static.vecteezy.com/system/resources/previews/002/478/302/original/sale-electronics-banner-background-free-vector.jpg',
             title: 'Summer Sale - Up to 50% Off',
             description: 'Shop now for the best deals on summer essentials!'
         },
         {
-            url: 'https://magesolution.com/wp-content/uploads/2022/07/1_7u7eYPpkr5baaBOzYcdNHw.jpeg',
+            url: 'https://mir-s3-cdn-cf.behance.net/project_modules/disp/8af2fa21454081.563018018334d.jpg',
             title: 'New Tech Gadgets',
             description: 'Explore the latest in tech and gadgets.'
         },
         {
-            url: 'https://images.pexels.com/photos/3768005/pexels-photo-3768005.jpeg?cs=srgb&dl=pexels-willoworld-3768005.jpg&fm=jpg',
+            url: 'https://tipsmake.com/data/images/collection-of-the-most-beautiful-fashion-banners-picture-22-LmTLHWkkY.jpg',
             title: 'Trending Fashion',
             description: 'Discover the newest fashion trends for this season.'
         },
